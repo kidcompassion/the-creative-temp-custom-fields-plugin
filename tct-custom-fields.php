@@ -83,11 +83,5 @@ function the_creative_temp_print_home_page_info(){
 		//echo '<pre>';
 		//print_r($custom_meta);
 		//echo '</pre>';
-		foreach ($custom_meta as $key=>$value ){
-			foreach($value as $result){
-				return $result;
-			}
-		}
-		
-
+		return $custom_meta;
 }
